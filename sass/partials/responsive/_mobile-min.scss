@@ -1,0 +1,428 @@
+/* Mobile Responsive - Screen below 480px styles*/
+@media (max-width:480px) {
+	#header{
+		min-height: 110px;
+		.container{
+			.left_block{
+				.logo{
+					height: 55px;
+					padding: 12px 4px;
+					width: 135px;
+				}
+			}
+			.right_block{
+				#navigation{
+					 top: 53px;
+				}
+				.search{
+					 top: 53px;
+				}
+				.council{
+					top:55px;
+				}
+			}
+		} 
+		.mobile_imp{
+			background-position:-135px -1040px;
+			height: 55px;
+			width: 65px;
+			margin-right: 0;
+			&.active{
+				background:#f1f1f1 url("../images/sprite-icon.png") no-repeat scroll -133px -1116px;
+			}
+		}
+		
+		.mobile_search{
+			background-position:-15px -1042px;
+			height: 55px;
+			width: 65px;
+			&.active{
+				background-position:-15px -1120px;
+			}
+		}
+		
+	}
+	.content_wrap{
+		
+		.two_content{
+			padding: 35px 2%;
+			.right_block{
+				.upcoming_events{
+					ul{
+						li{
+							margin: 0 0 20px;
+							width: 100%;
+						}
+					}
+				}
+				h2.home_title{
+					margin-left: 25px;
+					&:before{
+							left: -45px;
+						}
+				}
+			  .upcoming_events{
+			  	ul{
+					li{
+						.event_content{
+							padding: 0 10px 24px;
+						}
+					}
+				}
+			  } 
+			}
+		}
+		.video-wrap{
+			.item-list{
+				> ul{
+						> li{
+							width:100%;
+							.video-list{
+								text-align:center;
+							}
+						}		
+					}
+			}
+		}   
+	}
+	
+	.usibc_banner{
+		.marque_text{
+			position:relative;
+			h3{
+				float:none;
+				display:block;
+			}	
+		}
+	}     
+	
+	footer{
+		.news_letter{
+			padding: 20px 10px 20px 20px;
+			.form-item-mail{
+				width: 60%;
+				.form-text{	
+					min-width:85px;
+					width:100%;
+				} 
+			}	
+			.form-submit{
+				min-width: 110px;
+			}
+		}
+	}  
+	
+	.hero-banner-wrapper{
+		.hero-banner{
+			.banner-content{
+				position:relative;
+				.inner-row{
+					width:100%;
+					.inner-cell{
+						.banner-content-description{
+							margin-bottom:25px;
+							float: none !important;
+							.home_bcontent{
+								p{
+									color:$maroon;	
+								}
+							}
+							.learn_more{
+								margin:0px;
+								h4{
+									min-width:154px;
+									background:$orange;
+								}
+							} 			
+						}			
+					}			
+				}		
+			}	
+		}
+	} 
+	
+	.page-home{
+		.content_wrap{
+			.two_content{
+				padding: 35px 2%;
+				.left_block{
+					.about_usibc{
+						padding:15px;
+					}
+				}
+			}	
+		}
+	} 
+	.member-wrap{
+		.view-content{
+			ul{
+				li{
+					width:100%;
+				}
+			} 	
+		}
+	}  
+	.top-leaders{
+		width: 100%;
+		ul{
+			li{
+				width: 100%;
+				 margin: 0 0 20px;
+				 text-align: center;
+			}
+		}
+	} 
+	
+	.front_page_wrap{
+		.front_page_content{
+			.usibc_logo{
+				position: relative;
+				padding: 0 10px;
+			}
+			nav{
+				min-height:auto;
+				 padding: 10px 0;
+				 ul{
+				 	li{
+						padding:0 20px;
+					}
+				 }
+			}	
+		}
+	}  
+	.usibc_content{
+		.application_form{
+		
+		}
+	}
+	    
+	.content_wrap.about_page{
+		.two_content{
+				padding: 0px 2% 20px;
+				.schedule{
+					text-align:center;
+				}
+				ul{
+					li{
+						.schedule{
+							ul{
+								li{
+									padding:55px 8px 0;
+								}
+							} 	
+						}	
+					}
+				}   
+		}
+	} 	
+.event-wrap{
+		ul{
+			li{
+				.events_btn{
+					.share{
+						float:right;
+						.share-link{
+							margin: 20px 20px 30px 20px;	
+						}
+					}
+				}		
+			}	
+		}
+		/*.share-content{
+			width: 300px;
+			padding: 10px;
+			right: 4%;
+			left:inherit;
+			&:after{
+				left: 74%;
+			}
+		}*/
+	} 
+	
+	.section-events{
+		.field-name-body{
+			table{
+				td{
+					width:100%;
+					display:block;
+				}
+			}
+		}
+	}
+	
+	.usibc-content-wrap{
+		padding:0 10px;
+		.contact-address{
+			width:100%;
+			padding:20px;
+		}
+	}
+	
+	.event-wrap.news-wrap{
+		.media_icons{
+			display:block;
+		}
+		.media_content{
+			display:block;
+			padding:0 5px;
+			.palce_date{
+				a{
+					display:block;
+					width:85%;
+					word-wrap:break-word;
+				}
+			}
+		}
+	}
+	
+	
+	.page-home{
+		.hero-banner-wrapper{
+			.hero-banner{
+				.banner-content{
+					.inner-row{
+						.banner-content-description{
+							margin-bottom: 20px;
+							margin-top: 20px;
+							.home_bcontent{
+								h1{
+									 font-size: 30px;
+									 padding: 0;
+									 line-height:30px;
+								}
+								
+							} 
+							.learn_more{
+									h4{
+										min-width: 130px;
+    									padding: 7px 10px;
+										a{
+											font-size:17px;
+										}
+									}
+							}
+						} 
+					}	
+				}	
+			}
+		}   
+	} 
+
+
+}
+
+ 
+
+
+/* Mobile Responsive - Screen below 320px styles*/
+@media (max-width:360px) {
+	
+	footer{
+		.news_letter{
+			.form-item-mail{
+				width:100%;
+				.form-text{
+					width: 100%;
+				}		
+			}
+			.form-submit{
+				margin-top:20px;
+				margin-left:0px;
+			}
+			.messages.error{
+				position:relative;
+			}	
+			.messages.status{
+				position:relative;
+			}
+		}
+	} 
+	.event-wrap{
+		.share-content{
+				width: 300px;
+				padding: 10px;
+				&:after{
+					left: 18%;
+				}
+		}
+	}
+	
+	
+}
+@media (max-width:320px) {
+
+	.front_page_wrap{
+		.front_page_content{
+			.usibc_logo{
+				position: relative;
+				padding: 0 10px;
+			}
+			nav{
+				min-height:auto;
+				 padding: 10px 0;
+				 ul{
+					margin-bottom: 5px;
+					li{
+						padding:0 10px;
+					}
+				 }
+			}	
+		}
+	}  
+	
+	.event-wrap.news-wrap{
+		.media_icons{
+			display:block;
+		}
+		.media_content{
+			display:block;
+			padding:0 5px;
+			.palce_date{
+				a{
+					display:block;
+					width:296px;
+					word-wrap:break-word;
+				}
+			}
+		}
+	}
+	
+	.page-home{
+		.hero-banner-wrapper{
+			.hero-banner{
+				.banner-content{
+					.inner-row{
+						.banner-content-description{
+							margin-bottom: 20px;
+							margin-top: 20px;
+							.home_bcontent{
+								h1{
+									 font-size: 20px;
+									 padding: 0;
+									 line-height:23px;
+								}
+								
+							} 
+							.learn_more{
+									h4{
+										min-width: 130px;
+    									padding: 7px 10px;
+										a{
+											font-size:17px;
+										}
+									}
+							}
+						} 
+					}	
+				}	
+			}
+		}   
+	} 
+
+}
+
+
+
+
+	
+	

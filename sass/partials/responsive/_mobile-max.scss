@@ -1,0 +1,217 @@
+/* Mobile Responsive - Screen below 767px styles*/
+@media (max-width: 767px) {
+#header{
+	min-height: 145px;
+}
+
+.content_wrap{
+	.two_content{
+		.right_block{
+			.upcoming_events{
+				ul{
+					li{
+						width:48%;
+						margin:0px 0 20px 0;
+					}
+					.views-row-odd{
+						margin-right:20px;
+					}
+				}
+			}
+		}
+	}
+} 
+
+
+footer{
+	.news_letter{
+		.form-item-email{
+			float: left;
+   			width: 70%;
+			.form-text{
+				width: 100%;
+			}
+		}
+	}
+}  
+
+.usibc_content .application_form .member-association .member-title, .usibc_content .application_form .member-association .member-industry, .usibc_content .application_form .member-association .member-other, .usibc_content .application_form .member-association .member-staff{
+	display:block;
+	margin:0px;
+	width:100%;
+}
+.usibc_content .application_form .member-association .member-address .locality-block .member-address{
+	width:100%;
+	margin:0;
+	display:block;
+}
+.usibc_content .application_form .member-executive .input-field{
+	width:100%;
+	margin:20px 0;
+	display:block;
+}
+.usibc_content .application_form .member-association .member-address select.country{
+	width:100%;
+}
+.usibc_content .application_form .member-association .member-address .street-block .member-address{
+	width:100%;
+	margin:0;
+	display:block;
+}
+
+.usibc_content .application_form .member-association .member-address ~ .input-field{
+	width:100%;
+	margin:0;
+	display:block;
+}
+.upload_logo{
+	.image-widget{
+		.image-widget-data{
+			.form-submit{
+				margin-top:25px;
+			}
+		}
+	}
+}
+
+.usibc_content{
+	.application_form{
+		.group-initiative, .member-membership{
+				.form-type-checkbox{
+					width: auto;
+					display:block;
+					label.option{
+						 display: inline-block;
+						 margin: 5px 20px;
+					}
+				}
+		}  
+		.member-details{
+			.member-name{
+				display:block;
+				margin:0;
+				width:100%;
+			}
+		} 
+	  .member-address{
+	  		.fieldset-wrapper{
+				> .form-type-select{
+					width:100%;					
+				}
+				.street-block{
+					width:100%;
+				}
+				.locality-block{
+					width:100%;
+					.input-field{
+						float:none;
+						width:100%;
+						margin:0;
+					}
+				}
+			}
+	  }
+	   .group-p-details, .group-add-details, .group-ind-details, .group-dues-details{
+			.input-field{
+				width:100%;
+				margin:0;
+			}
+	  }
+	  .member-interest input, .member-company input, .member-bussiness input {
+			width: 100%;
+	 }
+	  
+	}
+}   
+
+	.default-hero-image{
+		display:none;
+	}
+	.mobile-banner{
+		display:block;
+		img{
+			height: auto !important;
+			width: 100% !important;
+		}
+	}
+
+	.video-wrap{
+		.item-list{
+			> ul{
+				> li{
+					width:99%;
+					margin:0 1% 2% 1%;
+					text-align:center;
+					.video-hover-content{
+						.inner-cell{
+							height:100%;
+							padding-top:20%;
+							margin:0;
+						}
+					} 
+				}
+			} 
+		} 
+	}	 
+
+
+   .content_wrap{
+		.two_content{
+			article{
+				.field-items{
+					ul{
+						margin:0;
+					}
+				} 
+			} 
+		}
+   }  
+   
+
+		.video-wrap{
+			.item-list{
+				> ul{
+					> li{
+						height:auto;
+						min-height:auto;
+						margin: 0 1% 2%;
+						text-align: center;
+						width: 48%;
+						min-height: 300px;
+						.video-container {
+							overflow: hidden;
+							padding-bottom: 42.25%;
+							padding-top: 30px;
+							position: relative;
+							height:100%;
+							.video-container iframe, .video-container object, .video-container embed {
+								position:absolute;
+								top:0;
+								left:0;
+								width:100%;
+								height:100%;
+							}
+						}
+					}
+				}
+			}
+		}   
+	
+		
+	.date-dash::before {
+		border-color: #d7d7d7;
+		margin: 12px 0;
+		width: 100%;
+	}
+	.date-dash {
+		clear: both;
+		float: none;
+		line-height: 1px;
+	}
+
+        .page-events .views-exposed-form {width: 100%;}
+	
+	.section-thankyou .content_wrap .two_content .field-items img { width: auto !important;}
+
+}
+

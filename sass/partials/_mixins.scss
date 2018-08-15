@@ -1,0 +1,14 @@
+// mixins
+
+@mixin box-sizing1($box-sizing) {
+  -webkit-box-sizing: $box-sizing;
+     -moz-box-sizing: $box-sizing;
+      -ms-box-sizing: $box-sizing;
+          box-sizing: $box-sizing;
+		  &:before, &:after{
+		   -webkit-box-sizing: $box-sizing;
+			 -moz-box-sizing: $box-sizing;
+			  -ms-box-sizing: $box-sizing;
+				  box-sizing: $box-sizing;
+		  }
+}

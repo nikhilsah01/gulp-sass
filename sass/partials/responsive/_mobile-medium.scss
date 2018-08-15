@@ -1,0 +1,48 @@
+/* Mobile Responsive - Screen below 568px styles*/
+@media (max-width: 568px) {
+	.page-advocacy{
+		.left_content{
+			ul{
+				li{
+					width:100%;
+				}
+			}
+		}
+	} 
+	.usibc_content{
+		.application_form{
+		
+		}
+	}
+	
+	.content_wrap{
+		.two_content{
+			.logo-wrap{
+				.item-list{
+					width:100%
+				}
+			}
+		}
+	} 
+	.video-wrap{
+		.item-list{
+			> ul{
+				> li {
+				height: auto;
+				margin: 0 1% 2%;
+				min-height: 308px;
+				text-align: center;
+				width: 100%;
+				}
+			}
+		}
+	}	
+	
+	.content_wrap .two_content .right_block .upcoming_events ul li{
+		width:100%;
+	}
+	.page-events .views-exposed-form {width: 100%;}
+	.page-events .views-exposed-form .form-select {width: 100px}
+
+	  
+}

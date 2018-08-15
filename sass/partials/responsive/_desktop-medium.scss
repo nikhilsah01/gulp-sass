@@ -1,0 +1,59 @@
+/* Desktop Responsive - Screen 1280px styles */
+
+@media (max-width: 1280px) {
+	
+	.content_wrap{
+		.two_content{
+			padding:80px 20px;
+		}
+	} 
+	.content_wrap.about_page{
+		.two_content{
+			aside{
+				.left_block{
+					margin-left:0px;
+				}		
+			}	
+		}
+	} 
+	
+	.front_page_wrap{
+		.front_page_content{
+			nav{
+				min-height: 110px;
+				padding: 15px 0;
+				bottom: 15px;
+			}	
+		}
+	}
+
+	.page-home{
+		.hero-banner-wrapper{
+			.hero-banner{
+				.banner-content{
+					.inner-row {
+						width:98%;
+					}
+				}
+			}
+		}
+	}       
+
+}
+
+@media (max-width: 1215px) {
+
+	.page-home .content_wrap .two_content .left_block {
+		display: block;
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+	.page-home .content_wrap .two_content .right_block {
+		display: block;
+		padding-top: 30px;
+		width: 100%;
+	}
+
+}
+

@@ -1,0 +1,102 @@
+// global
+
+* {
+  @include box-sizing1(border-box);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+a{
+	text-decoration:none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.container{
+	max-width:$site-max-width;
+	width:100%;
+	margin:0 auto;
+}
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.content_wrap{
+	background:$white;
+}
+
+body{
+	font-size:15px;
+	font-family:$open_sans_regular;
+}
+
+p{
+	font-size:15px;
+	font-family:$open_sans_regular;
+	color:$black;
+	line-height:25px;
+}
+
+.icon_img{
+		width:125px;
+		height:125px;
+		background:$white;
+		border-radius: 100px;
+		border:1px solid #cfcfcf;
+		position:relative;
+		margin: 0 auto;
+}
+.content_wrap{
+	.two_content{
+		.pager-load-more{
+			display:block;
+			text-align: center;
+			li{
+				 border: 0 none;
+				display: inline-block;
+				height: 40px;
+				margin: 60px 0 20px;
+				min-height: 40px;
+				width: 100% !important;
+				a{
+					padding:10px 20px;
+					color:$white;
+					background:$maroon;
+					text-transform:uppercase;
+					font-family:$open_sans_bold;
+					display: inline-block;
+				}
+			}	
+		}
+	}
+}
+
+.close_btn{
+			background: transparent url("../images/sprite-icon.png") no-repeat scroll -134px -765px;
+			cursor: pointer;
+			height: 26px;
+			position: absolute;
+			right: 15px;
+			text-indent: -9999px;
+			top: 10px;
+			width: 26px;
+		}
+.messages.error{
+	background: rgba(0, 0, 0, 0) url("../images/feed-error-arrow.svg") no-repeat scroll 0 10px / 14px 14px;
+	border: 0 none;
+    color: #cc3333;
+    font-size: 1em;
+    padding: 10px 0 3px 18px;
+	position: relative;
+	display:inline-block;
+}
+.messages.status{
+	color: #6ea86f;
+	background: transparent url("../images/feed-success-green-tick.svg") no-repeat scroll 0 11px / 40px 16px;
+	border: 0 none;
+    font-size: 1em;
+    padding: 10px 0 3px 30px;
+	position: absolute;
+}

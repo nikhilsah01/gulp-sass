@@ -1,0 +1,25 @@
+
+//Screen 1350px styles
+@import "_desktop-max";
+
+//Screen 1280px styles
+@import "_desktop-medium";
+
+//Screen 1150px styles
+@import "_desktop-min";
+
+//Screen 1024px styles
+@import "_desktop-default";
+
+//Screen Below 979 styles
+@import "_mobile-base";
+
+
+//Screen Below 767 styles
+@import "_mobile-max";
+
+//Screen Below 568 styles
+@import "_mobile-medium";
+
+//Screen Below 320 styles
+@import "_mobile-min";
